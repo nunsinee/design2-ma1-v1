@@ -55,8 +55,9 @@ h6 {
 p {
 	color: #536b79;
 	margin: 0 auto;
-	max-width: 90%;
-	text-align: center;
+	width: 90%;
+	max-width: 900px;
+	padding: 1rem;
 	line-height: 1.2;
 	padding-bottom: 2rem;
 }
@@ -68,7 +69,7 @@ p {
 	font-weight: 600;
 	line-height: 2;
 	text-align: center;
-	padding: 2rem 0 2rem 0;
+	padding: 2rem 0 1rem 0;
 }
 
 .heading {
@@ -92,7 +93,8 @@ p {
 }
 
 .container {
-	padding: 5rem 0;
+	padding-top: 2em;
+	padding-bottom: 3em;
 }
 
 .grid {
@@ -108,14 +110,19 @@ p {
 	color: white;
 	background-color: rgba(91, 97, 100, 0.9);
 	background-image: url(../images/brick-wall.png);
-	margin: 3rem 0;
-	border-radius: 5px;
+	margin-top: 1rem;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 }
 
 .container-products {
 	background-color: var(--product-bg);
-	border-radius: 5px;
-	margin: 3rem 0;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.container-popular {
+	background-color: #d4d4d4;
 }
 
 .bold-text {
