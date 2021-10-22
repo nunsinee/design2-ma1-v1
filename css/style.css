@@ -7,8 +7,8 @@
 :root {
 	--darkBlue-subheading: #3e505b;
 	--grayBlue-text: #647589;
-	--lightBlue-btn: #8bb3cc;
-	--darkblue-btn: #2182a6;
+	--lightBlue-btn: #2696bf;
+	--darkblue-btn: #144766;
 	--nav-bg: #0f1010;
 	--yellowActive-link: #e9c46a;
 	--red-text: red;
@@ -259,26 +259,26 @@ a.card-text:hover {
 }
 
 .btn-link {
-	color: var(--darkblue-btn);
+	color: var(--lightBlue-btn);
 	font-weight: 400;
 	text-decoration: none;
 	padding-left: 0;
 }
 
 .btn-link:hover {
-	color: var(--grayBlue-text);
+	color: var(--darkblue-btn);
 }
 
 .btn-info {
-	background: var(--darkblue-btn);
+	background: var(--lightBlue-btn);
 	color: #ffffff;
 	font-weight: 400;
 	border: 1px solid var(--lightBlue-btn);
 }
 
 .btn-info:hover {
-	background: var(--lightBlue-btn);
-	color: #000000;
+	background: var(--darkblue-btn);
+	color: #ffffff;
 	border: 1px solid var(--lightBlue-btn);
 }
 
