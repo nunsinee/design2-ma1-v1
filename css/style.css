@@ -324,10 +324,16 @@ a.card-text:hover {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 	}
+
+	.grid-item {
+		width: 14rem;
+	}
+
 	.heading,
 	.heading-categories {
 		font-size: 1.2rem;
 		line-height: 1.5;
+		font-weight: 600;
 		padding-bottom: 1rem;
 	}
 
@@ -358,7 +364,7 @@ a.card-text:hover {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 	.card {
 		width: 18rem;
 	}
