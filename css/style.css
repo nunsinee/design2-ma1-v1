@@ -66,7 +66,6 @@ p {
 .heading-categories {
 	font-family: "Playfair Display", serif;
 	font-size: 1.8rem;
-	font-weight: 600;
 	line-height: 2;
 	text-align: center;
 	padding: 2rem 0 1rem 0;
@@ -249,7 +248,7 @@ a.card-text:hover {
 
 .btn-link {
 	color: var(--darkblue-btn);
-	font-weight: 600;
+	font-weight: 400;
 	text-decoration: none;
 	padding-left: 0;
 }
@@ -310,13 +309,13 @@ a.card-text:hover {
 
 @media (max-width: 576px) {
 	.container {
-		padding: 2rem 0;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
 	.heading,
 	.heading-categories {
-		font-size: 1.5rem;
-		font-weight: 600;
-		line-height: 1.8;
+		font-size: 1.2rem;
+		line-height: 1.5;
 		padding-bottom: 1rem;
 	}
 
