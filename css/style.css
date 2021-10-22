@@ -12,7 +12,7 @@
 	--nav-bg: #0f1010;
 	--yellowActive-link: #e9c46a;
 	--red-text: red;
-	--popular-bg: #ebebeb;
+	--product-bg: #e3e3e3;
 }
 
 html,
@@ -24,7 +24,6 @@ body {
 	font-family: "Raleway", sans-serif;
 	display: flex;
 	flex-direction: column;
-	/* background-color: var(--popular-bg); */
 	background-image: url(../images/brick-wall.png);
 	margin: 0;
 }
@@ -114,7 +113,7 @@ p {
 }
 
 .container-products {
-	background: rgba(44, 47, 49, 0.08);
+	background-color: var(--product-bg);
 	border-radius: 5px;
 	margin: 3rem 0;
 }
