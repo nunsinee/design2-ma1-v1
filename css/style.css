@@ -11,7 +11,7 @@
 	--darkblue-btn: #144766;
 	--nav-bg: #0f1010;
 	--yellowActive-link: #e9c46a;
-	--red-text: red;
+	--red-text: #ff0000;
 	--product-bg: #e3e3e3;
 }
 
@@ -112,8 +112,12 @@ p {
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	border-radius: 0.25 rem;
+	border-radius: 0.25rem;
 	margin: 0.25rem;
+}
+
+.grid-item img {
+	border: 2px solid var(--nav-bg);
 }
 
 .categories {
@@ -326,7 +330,7 @@ a.card-text:hover {
 	}
 
 	.grid-item {
-		width: 14rem;
+		width: 13rem;
 	}
 
 	.heading,
