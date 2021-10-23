@@ -363,8 +363,13 @@ a.card-text:hover {
 		padding: 1rem 0;
 	}
 
-	i.fab,
-	i.fad {
+	.footer_container--icon {
+		width: 60%;
+		flex-shrink: 0;
+		align-items: center;
+	}
+
+	i.fab {
 		font-size: 1.8rem;
 	}
 
