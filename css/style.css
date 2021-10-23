@@ -164,7 +164,6 @@ p {
 
 .footer {
 	padding: 2rem 1.5rem;
-	/* background: var(--nav-bg); */
 	flex-shrink: 0;
 	font-size: 0.8em;
 	color: white;
