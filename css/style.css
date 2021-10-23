@@ -168,7 +168,6 @@ p {
 	font-size: 0.8em;
 	color: white;
 	background-color: var(--nav-bg);
-	background-image: url(../images/brick-wall-dark.png);
 }
 
 .footer_container {
@@ -325,6 +324,11 @@ a.card-text:hover {
 }
 
 @media (max-width: 576px) {
+	body {
+		background-color: var(--nav-bg);
+		background-image: none;
+	}
+
 	.container {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
