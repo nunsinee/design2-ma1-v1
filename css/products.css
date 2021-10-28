@@ -45,6 +45,7 @@
 
 .contain-products-page {
 	background-color: #d4d4d4;
+	padding-bottom: 2rem;
 }
 
 .btn-see-more {
@@ -69,6 +70,8 @@
 .heading-icons {
 	display: flex;
 	justify-content: center;
+	color: var(--darkblue-btn);
+	text-transform: uppercase;
 }
 
 .container-icons {
@@ -99,9 +102,9 @@
 .icon-category {
 	width: 64px;
 	height: 64px;
-	background-size: contain;
 	border: 1px solid var(--grayBlue-text);
 	border-radius: 5px;
+	background-size: contain;
 }
 
 .icon-category:hover {

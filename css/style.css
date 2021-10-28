@@ -136,6 +136,7 @@ p {
 	background-color: var(--product-bg);
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+	padding-bottom: 2rem;
 }
 
 .container-popular {
@@ -202,7 +203,7 @@ a.card-text {
 }
 
 a.card-text:hover {
-	color: #ffffff;
+	color: var(--lightBlue-btn);
 }
 
 .bg-light {
@@ -290,8 +291,13 @@ a.card-text:hover {
 .card {
 	width: 18rem;
 	background-color: transparent;
-	border: none;
+	/* border: none; */
 	margin: 1rem 1.5rem;
+}
+
+.card-body {
+	text-align: center;
+	background-color: #e8e8e8;
 }
 
 .card img {
