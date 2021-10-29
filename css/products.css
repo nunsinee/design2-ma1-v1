@@ -162,10 +162,9 @@
 
 @media (max-width: 576px) {
 	.btn-see-more {
-		width: 115px;
+		width: 120px;
 		padding: 0.25rem 0.75rem;
 		margin: 1rem 0;
-		font-size: 0.9rem;
 	}
 	.hero::before {
 		background-position: center left;
