@@ -61,6 +61,8 @@
 	background-color: transparent;
 	padding: 0.5em 1.25em;
 	margin: 1rem 0;
+	text-align: center;
+	cursor: pointer;
 }
 
 .btn-see-more:hover {
@@ -159,6 +161,10 @@
 }
 
 @media (max-width: 576px) {
+	.btn-see-more {
+		padding: 0.5rem 0.5rem;
+		margin: 1rem 0;
+	}
 	.hero::before {
 		background-position: center left;
 	}
