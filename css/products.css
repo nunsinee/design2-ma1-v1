@@ -166,9 +166,8 @@
 	}
 
 	.hero-content {
-		position: absolute;
-		left: 15%;
-		top: 30%;
+		display: flex;
+		justify-content: center;
 	}
 
 	.hero-title {
