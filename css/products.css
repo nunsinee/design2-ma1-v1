@@ -179,6 +179,11 @@
 	.icon-category {
 		background-color: white;
 	}
+
+	h5,
+	h6 {
+		margin-bottom: 0.25rem;
+	}
 }
 
 @media screen and (min-width: 577px) and (max-width: 991px) {
